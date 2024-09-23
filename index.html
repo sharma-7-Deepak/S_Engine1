@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoPlus</title>
+    <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/608/913/png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones-thumbnail.png" >
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image:linear-gradient(90deg,rgb(243, 72, 10),skyblue);">
+    <div style="display: flexbox; width:100% ;">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li id="a1"><a id="a1" href="zgame.html">Offline game</a></li>
+                    <li id="a2"><a id="a1" href="https://Gmail.com" alt="Gmail">Gmail</a></li>
+                    <li id="a3"><a id="a1" href="https://google.com" alt="Image">Image</a></li>
+                    <li id="a4"><a id="a1" href="https://weather.com/en-IN">Weather</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div id="time" class="timer">
+        <script>
+            let a = new Date();
+            document.write(a);
+            console.log(a);
+        </script>
+    </div>
+
+    <div class="title-section">
+        <span><font color="darkred">I</font>nfo<font color="darkred">P</font>lus</span>
+    </div>
+
+    <!-- Search input with button section -->
+    <div class="search-container">
+        <input id="search-input" type="text" placeholder="Enter search term" class="search-field">
+        <button id="search-btn" class="customize">Search</button>
+        <button id="clear-history-btn" class="customize clear-btn">Clear History</button>
+    </div>
+
+    <!-- Button below search engine -->
+    <div class="button-below-search">
+        <button onclick="alert('Additional functionality')" class="customize">Additional Functionality</button>
+    </div>
+
+    <div class="history-container">
+        <h3>Search History</h3>
+        <ul id="search-history-list"></ul>
+    </div>
+
+    <div align="center" style="padding: 2vw; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        InfoPlus is offered in
+        <a href="https://support.google.com/translate/answer/2534559?hl=en&co=GENIE.Platform%3DDesktop">hindi</a>
+    </div>
+
+    <footer>
+        <a class="anewz" href="https://www.hindustantimes.com/">TODAY'S NEWZ</a>
+        <a class="anewz" href="https://www.msn.com/en-in/money/cryptocurrencies">CHECK OUT MARKET TRENDS </a>
+    </footer>
+
+    <input onclick="changeBackgroundColor()" id="btn" class="customize" value="Customize InfoPlus" type="button">
+    <script src="script.js"></script>
+</body>
+</html>
